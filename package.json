@@ -1,0 +1,28 @@
+{
+  "name": "timestamp48",
+  "version": "1.0.0",
+  "description": "Fast 48\u2011bit (UUIDv7-style) timestamp -> Base64URL (8 chars)",
+  "license": "MIT",
+  "main": "timestamp.js",
+  "exports": {
+    ".": {
+      "require": "./timestamp.js",
+      "import": "./timestamp.js",
+      "types": "./timestamp.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node --test",
+    "bench": "node benchmark.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "uuidv7",
+    "timestamp",
+    "base64url",
+    "performance",
+    "no-deps"
+  ]
+}
